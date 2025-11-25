@@ -1,0 +1,2 @@
+fitgen-linux-x64 filter=lfs diff=lfs merge=lfs -text
+FitGen.exe filter=lfs diff=lfs merge=lfs -text
