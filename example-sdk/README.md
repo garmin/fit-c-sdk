@@ -52,7 +52,7 @@ The following modifications can be made in fit_config.h to change the compile ti
 
 The config.csv file is used to select which messages and fields are included in the C SDK. FitGen creates a default config.csv that selects the most common messages and fields to be included in the C SDK. The default config.csv file can be edited to add or remove messages from the C SDK.
 
-The code size of the C SDK can be optimized by excluding message and fields that are not used for a given application. The length of array and string fields can be optimized to further reduce the code size of the C SDK and the file size of encoded FIT files.
+The code size of the C SDK can be optimized by excluding messages and fields that are not used for a given application. The length of array and string fields can be optimized to further reduce the code size of the C SDK and the file size of encoded FIT files.
 
 #### Selecting Messages and Fields
 
@@ -149,7 +149,7 @@ typedef struct
 
 If products have different features, it may be beneficial to create different product configurations that include only the messages and features used by each product. This can be done using a single config.csv file.
 
-The default product in config.csv is "EXAMPLE" which includes the most common messages and fields. Additional product configurations can be defined by adding columns to the "Message" header, and then selecting the messages and fields to be included in each product configuration. The following config.csv file creates a second product configuration named "OTHER", sets its data structure alignment to 4, add a device file, and selects the messages and fields that should be included.
+The default product in config.csv is "EXAMPLE" which includes the most common messages and fields. Additional product configurations can be defined by adding columns to the "Message" header, and then selecting the messages and fields to be included in each product configuration. The following config.csv file creates a second product configuration named "OTHER", sets its data structure alignment to 4, adds a device file, and selects the messages and fields that should be included.
 
 ````
 Data Structure Alignment [bytes]:,,,4,4
