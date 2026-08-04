@@ -1353,6 +1353,7 @@ monitoring,,,""
 ,descent,,"0"
 ,moderate_activity_minutes,,"0"
 ,vigorous_activity_minutes,,"0"
+,pushes,,"0"
 
 monitoring_hr_data,,,""
 ,timestamp,,"1"
