@@ -25,7 +25,7 @@
 //#define FIT_CONVERT_MULTI_THREAD // Define to support multiple conversion threads.
 #define FIT_16BIT_MESG_LENGTH_SUPPORT
 //#define FIT_STRUCT_OFFSET_USE_STDDEF_OFFSETOF // Define to use offsetof macro within FIT_STRUCT_OFFSET
-//#define FIT_GET_MESG_DEF_BINARY_SEARCH // Define to use the binary serach version of Fit_GetMesgDef
+//#define FIT_GET_MESG_DEF_BINARY_SEARCH // Define to use the binary search version of Fit_GetMesgDef
 
 #if defined(__cplusplus)
    }
